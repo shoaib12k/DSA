@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class FizzBuzz {
     public ArrayList<String> fizzBuzz(int n){
-//        /fsdf
         ArrayList<String> result = new ArrayList<>();
         for(int i=0;i<n;i++){
             if(i%3==0 && i%5==0)
