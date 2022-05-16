@@ -22,7 +22,7 @@ public class Mountain {
                 int j = i;
                 current+=1;
 
-                while(j-1>=0 && arr[j]>arr[j-1]){
+                while(j>=1 && arr[j]>arr[j-1]){
                     current++;
                     j--;
                 }
